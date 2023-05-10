@@ -1,0 +1,130 @@
+05/10/23 11:54:29,267: [main] ERROR (MerchantConfig:406) - ConfigException : Portfolio ID is mandatory
+05/10/23 11:57:09,460: [main] ERROR (MerchantConfig:619) - MerchantID mandatory : NO MerchantID entered. 
+05/10/23 11:57:09,463: [main] ERROR (ApiClient:1436) - MerchantID mandatory : NO MerchantID entered. 
+05/10/23 11:57:10,355: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 11:57:53,256: [main] ERROR (MerchantConfig:377) - ConfigException : Merchant Secret Key missing/null, check cybs.properties
+05/10/23 11:57:53,259: [main] ERROR (ApiClient:1436) - Merchant Secret Key missing/null, check cybs.properties
+05/10/23 11:57:53,920: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 11:58:18,122: [main] ERROR (MerchantConfig:365) - ConfigException : Merchant KeyID missing/null, check cybs.properties
+05/10/23 11:58:18,125: [main] ERROR (ApiClient:1436) - Merchant KeyID missing/null, check cybs.properties
+05/10/23 11:58:18,826: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 11:58:30,502: [main] ERROR (ApiClient:1307) - ApiException : 401 Unauthorized
+05/10/23 11:58:59,270: [main] ERROR (MerchantConfig:594) - Authentication type is mandatory
+05/10/23 11:58:59,273: [main] ERROR (ApiClient:1436) - Authentication type is mandatory
+05/10/23 11:58:59,953: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 12:00:46,250: [main] ERROR (MerchantConfig:594) - Authentication type is mandatory
+05/10/23 12:00:46,253: [main] ERROR (ApiClient:1436) - Authentication type is mandatory
+05/10/23 12:00:46,981: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 12:03:13,711: [main] ERROR (MerchantConfig:594) - Authentication type is mandatory
+05/10/23 12:03:13,714: [main] ERROR (ApiClient:1436) - Authentication type is mandatory
+05/10/23 12:03:14,523: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 12:05:58,891: [main] ERROR (MerchantConfig:594) - Authentication type is mandatory
+05/10/23 12:05:58,893: [main] ERROR (ApiClient:1436) - Authentication type is mandatory
+05/10/23 12:05:59,701: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 12:07:37,229: [main] ERROR (MerchantConfig:594) - Authentication type is mandatory
+05/10/23 12:07:37,232: [main] ERROR (ApiClient:1436) - Authentication type is mandatory
+05/10/23 12:07:37,962: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 12:31:21,360: [main] ERROR (MerchantConfig:447) - KeyAlias Empty/Null. Assigning merchantID value :: 
+05/10/23 12:31:30,663: [main] ERROR (MerchantConfig:447) - KeyAlias Empty/Null. Assigning merchantID value :: 
+05/10/23 12:33:32,767: [main] ERROR (MerchantConfig:447) - KeyAlias Empty/Null. Assigning merchantID value :: 
+05/10/23 12:35:00,712: [main] ERROR (MerchantConfig:650) - KeyDirectory not found, Entered directory ::  : resources
+05/10/23 12:35:02,454: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 12:35:13,732: [main] ERROR (MerchantConfig:650) - KeyDirectory not found, Entered directory ::  : resources
+05/10/23 12:35:14,605: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 12:36:11,300: [main] ERROR (MerchantConfig:657) - KeyFile not found, Entered path/file name ::  : src/main/resources/your_portfolio_id.p12
+05/10/23 12:36:12,53: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 12:38:08,954: [main] ERROR (MerchantConfig:657) - KeyFile not found, Entered path/file name ::  : src/main/resources/keyfilename.p12
+05/10/23 12:38:09,741: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 12:38:23,685: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 12:38:23,688: [main] ERROR (JwtSignatureToken:138) - java.io.IOException: PKCS12 key store mac invalid - wrong password or corrupted file.
+05/10/23 12:38:24,483: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 12:38:55,303: [main] ERROR (ApiClient:1307) - ApiException : 401 Unauthorized
+05/10/23 12:47:54,421: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 12:47:54,423: [main] ERROR (JwtSignatureToken:138) - java.lang.UnsupportedOperationException: trusted certificate entries are not password-protected
+05/10/23 12:47:55,361: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 12:48:24,613: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 12:48:24,616: [main] ERROR (JwtSignatureToken:138) - java.lang.UnsupportedOperationException: trusted certificate entries are not password-protected
+05/10/23 12:48:25,397: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 12:50:00,508: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 12:50:00,511: [main] ERROR (JwtSignatureToken:138) - java.lang.UnsupportedOperationException: trusted certificate entries are not password-protected
+05/10/23 12:50:22,889: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 12:50:58,951: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 12:50:58,955: [main] ERROR (JwtSignatureToken:138) - java.lang.UnsupportedOperationException: trusted certificate entries are not password-protected
+05/10/23 12:52:08,586: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 12:54:42,685: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 12:54:42,694: [main] ERROR (JwtSignatureToken:138) - java.lang.UnsupportedOperationException: trusted certificate entries are not password-protected
+05/10/23 12:54:44,200: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 12:58:59,532: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 12:58:59,535: [main] ERROR (JwtSignatureToken:138) - java.lang.UnsupportedOperationException: trusted certificate entries are not password-protected
+05/10/23 12:59:00,343: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 13:00:23,99: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 13:00:23,111: [main] ERROR (JwtSignatureToken:138) - java.lang.UnsupportedOperationException: trusted certificate entries are not password-protected
+05/10/23 13:02:33,714: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 13:02:33,728: [main] ERROR (JwtSignatureToken:138) - java.lang.UnsupportedOperationException: trusted certificate entries are not password-protected
+05/10/23 13:10:52,238: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 13:10:52,242: [main] ERROR (JwtSignatureToken:138) - java.lang.UnsupportedOperationException: trusted certificate entries are not password-protected
+05/10/23 13:12:26,385: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 13:12:53,595: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 13:12:53,600: [main] ERROR (JwtSignatureToken:138) - java.lang.UnsupportedOperationException: trusted certificate entries are not password-protected
+05/10/23 13:13:20,419: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 13:13:20,422: [main] ERROR (JwtSignatureToken:138) - java.lang.UnsupportedOperationException: trusted certificate entries are not password-protected
+05/10/23 13:13:28,433: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 13:13:49,555: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 13:13:49,558: [main] ERROR (JwtSignatureToken:138) - java.lang.UnsupportedOperationException: trusted certificate entries are not password-protected
+05/10/23 13:13:50,517: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 13:15:55,522: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 13:15:55,551: [main] ERROR (JwtSignatureToken:138) - java.lang.UnsupportedOperationException: trusted certificate entries are not password-protected
+05/10/23 13:20:12,956: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 13:20:12,959: [main] ERROR (JwtSignatureToken:138) - java.lang.UnsupportedOperationException: trusted certificate entries are not password-protected
+05/10/23 13:20:14,187: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 13:47:00,38: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 13:47:00,73: [main] ERROR (JwtSignatureToken:138) - java.lang.UnsupportedOperationException: trusted certificate entries are not password-protected
+05/10/23 13:47:56,266: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 13:48:57,378: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 13:48:57,381: [main] ERROR (JwtSignatureToken:138) - java.io.IOException: PKCS12 key store mac invalid - wrong password or corrupted file.
+05/10/23 13:48:58,311: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 13:51:28,875: [main] ERROR (ApiClient:1307) - ApiException : 401 Unauthorized
+05/10/23 13:51:46,483: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 13:51:46,486: [main] ERROR (JwtSignatureToken:138) - java.lang.UnsupportedOperationException: trusted certificate entries are not password-protected
+05/10/23 13:51:47,369: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 13:52:01,266: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 13:52:01,269: [main] ERROR (JwtSignatureToken:138) - java.lang.UnsupportedOperationException: trusted certificate entries are not password-protected
+05/10/23 13:52:02,288: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 13:52:15,421: [main] ERROR (MerchantConfig:619) - MerchantID mandatory : NO MerchantID entered. 
+05/10/23 13:52:15,424: [main] ERROR (ApiClient:1436) - MerchantID mandatory : NO MerchantID entered. 
+05/10/23 13:52:16,289: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 13:52:29,472: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 13:52:29,474: [main] ERROR (JwtSignatureToken:138) - java.lang.UnsupportedOperationException: trusted certificate entries are not password-protected
+05/10/23 13:52:30,424: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 13:54:42,694: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 13:54:42,696: [main] ERROR (JwtSignatureToken:138) - java.lang.UnsupportedOperationException: trusted certificate entries are not password-protected
+05/10/23 13:54:43,621: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 13:55:48,428: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 13:55:48,431: [main] ERROR (JwtSignatureToken:138) - java.io.IOException: PKCS12 key store mac invalid - wrong password or corrupted file.
+05/10/23 13:55:49,416: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 13:56:31,184: [main] ERROR (MerchantConfig:657) - KeyFile not found, Entered path/file name ::  : src/main/resources/credibanco_sandbox.p12
+05/10/23 13:56:32,128: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 13:56:51,627: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 13:56:51,630: [main] ERROR (JwtSignatureToken:138) - java.io.IOException: PKCS12 key store mac invalid - wrong password or corrupted file.
+05/10/23 13:56:52,694: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 13:57:49,741: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 13:57:49,744: [main] ERROR (JwtSignatureToken:138) - java.io.IOException: PKCS12 key store mac invalid - wrong password or corrupted file.
+05/10/23 13:57:50,700: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 13:58:23,571: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 13:58:23,574: [main] ERROR (JwtSignatureToken:138) - java.io.IOException: PKCS12 key store mac invalid - wrong password or corrupted file.
+05/10/23 13:58:24,693: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 13:59:44,959: [main] ERROR (MerchantConfig:650) - KeyDirectory not found, Entered directory ::  : resources
+05/10/23 13:59:45,791: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 14:10:51,162: [main] ERROR (MerchantConfig:393) - KeyAlias Mismatch. Assigning merchantID value 
+05/10/23 14:10:55,392: [main] ERROR (MerchantConfig:393) - KeyAlias Mismatch. Assigning merchantID value 
+05/10/23 14:11:04,244: [main] ERROR (MerchantConfig:393) - KeyAlias Mismatch. Assigning merchantID value 
+05/10/23 14:49:38,551: [main] ERROR (MerchantConfig:393) - KeyAlias Mismatch. Assigning merchantID value 
+05/10/23 14:51:00,612: [main] ERROR (MerchantConfig:393) - KeyAlias Mismatch. Assigning merchantID value 
+05/10/23 14:52:09,594: [main] ERROR (MerchantConfig:650) - KeyDirectory not found, Entered directory ::  : resources
+05/10/23 14:52:10,515: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 14:56:15,920: [main] FATAL (JwtSignatureToken:137) - JWT Signature production failed.
+05/10/23 14:56:15,923: [main] ERROR (JwtSignatureToken:138) - java.lang.UnsupportedOperationException: trusted certificate entries are not password-protected
+05/10/23 14:56:16,728: [main] ERROR (ApiClient:1307) - ApiException : 400 Bad Request
+05/10/23 14:57:38,489: [main] ERROR (ApiClient:1307) - ApiException : 401 Unauthorized
+05/10/23 14:57:59,97: [main] ERROR (ApiClient:1307) - ApiException : 401 Unauthorized
+05/10/23 14:59:53,484: [main] ERROR (ApiClient:1223) - ApiException : Host desconocido (apitest.axa.com)

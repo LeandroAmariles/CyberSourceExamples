@@ -2,6 +2,7 @@ package samples.authentication.AuthSampleCode;
 
 import java.lang.invoke.MethodHandles;
 import Api.PaymentsApi;
+import Data.Configuration;
 import Invokers.ApiClient;
 import Model.*;
 import com.cybersource.authsdk.core.MerchantConfig;
@@ -23,19 +24,28 @@ public class StandAloneMetaKey {
     }
 
     public static Properties getMerchantDetails() {
-        Properties props = new Properties();
 
-        // HTTP_Signature = http_signature and JWT = jwt
-        props.setProperty("authenticationType", "http_signature");
-        props.setProperty("merchantID", "");
-        props.setProperty("runEnvironment", "apitest.cybersource.com");
+        Properties props = Configuration.getMerchantDetails();
 
-        // MetaKey Parameters
-        props.setProperty("portfolioID", "");
-        props.setProperty("useMetaKey", "true");
-        // HTTP Parameters
-        props.setProperty("merchantKeyId", "");
-        props.setProperty("merchantsecretKey", "");
+//        Properties props = new Properties();
+//
+//        // HTTP_Signature = http_signature and JWT = jwt
+//        props.setProperty("authenticationType", "jwt");
+//        props.setProperty("merchantID", "testrest");
+//        props.setProperty("runEnvironment", "apitest.cybersource.com");
+//        props.setProperty("keysDirectory", "src/main/resources");
+//        props.setProperty("keyAlias", "credibanco_sandbox");
+//        props.setProperty("keyPass", "testrest");
+//        props.setProperty("keyFileName", "testrest");
+//        props.setProperty("enableClientCert", "false");
+//
+//
+//        // MetaKey Parameters
+//        props.setProperty("portfolioID", "credibanco_sandbox");
+//        props.setProperty("useMetaKey", "false");
+//        // HTTP Parameters
+//        props.setProperty("merchantKeyId", "08c94330-f618-42a3-b09d-e1e43be5efda");
+//        props.setProperty("merchantsecretKey", "yBJxy6LjM2TmcPGu+GaJrHtkke25fPpUX+UY6/L/1tE=");
 
         return props;
 
@@ -99,6 +109,8 @@ public class StandAloneMetaKey {
             System.out.println("ResponseMessage :" + status);
             System.out.println(result);
 			WriteLogAudit(Integer.parseInt(responseCode));
+
+
 
         } catch (Exception e) {
             e.printStackTrace();

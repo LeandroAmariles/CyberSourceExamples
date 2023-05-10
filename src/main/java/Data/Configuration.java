@@ -7,23 +7,24 @@ public class Configuration {
 		Properties props = new Properties();
 
 		// HTTP_Signature = http_signature and JWT = jwt
-		props.setProperty("authenticationType", "http_signature");
-		props.setProperty("merchantID", "testrest");
+		props.setProperty("authenticationType", "jwt");
+		props.setProperty("merchantID", "credibanco_tms");
 		props.setProperty("runEnvironment", "apitest.cybersource.com");
 		props.setProperty("requestJsonPath", "src/main/resources/request.json");
 
+
 		// MetaKey Parameters
-		props.setProperty("portfolioID", "");
-		props.setProperty("useMetaKey", "false");
+		props.setProperty("portfolioID", "credibanco_sandbox");
+		props.setProperty("useMetaKey", "true");
 
 		// JWT Parameters
-		props.setProperty("keyAlias", "testrest");
-		props.setProperty("keyPass", "testrest");
-		props.setProperty("keyFileName", "testrest");
+		props.setProperty("keyAlias", "credibanco_tms");
+		props.setProperty("keyPass", "credibanco_tms");
+		props.setProperty("keyFileName", "credibanco_tms");
 
 		// P12 key path. Enter the folder path where the .p12 file is located.
 
-		props.setProperty("keysDirectory", "src/main/resources");
+		props.setProperty("keysDirectory", "src/main/resources/");
 		// HTTP Parameters
 		props.setProperty("merchantKeyId", "08c94330-f618-42a3-b09d-e1e43be5efda");
 		props.setProperty("merchantsecretKey", "yBJxy6LjM2TmcPGu+GaJrHtkke25fPpUX+UY6/L/1tE=");
